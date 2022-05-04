@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Vollkorn+SC&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.site-header {
+  background: url(https://cdnb.artstation.com/p/assets/images/images/002/586/693/large/kd-stanton-zombie-dragon-bestiary-terrorgheist-bestiary-sketch-7.jpg?1463413026)
+    no-repeat center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.site-branding-banner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.site-branding {
+  padding: 1.7em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.site-title,
+.site-subtitle {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Vollkorn SC", serif;
+}
+
+.site-title {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.site-subtitle {
+  font-size: 18px;
+}
+
+.site-subtitle::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0.85em auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+    max-width: 720px;
+    }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+#title {
+  font-weight: 600;
+}
+
+#description {
+  font-weight: 600;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#survey-form {
+  border-radius: 0.25rem;
+  padding: 2.5rem;
+  background: url(https://media.istockphoto.com/photos/vintage-white-paper-background-picture-id1299928257?b=1&k=20&m=1299928257&s=170667a&w=0&h=mvbylsnYFQkGActDpIxA45rINe-T0uH3WgabbnvbihU=)
+    center;
+  color: black;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-family: inherit;
+  font-size: 1.125rem;
+  background: black;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
