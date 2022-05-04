@@ -1,108 +1,77 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Responsive Survey Form
 
-Welcome USER_NAME,
+![Image]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This mini project was made as part of the [freeCodeCamp](https://www.freecodecamp.org/learn/) Responsive Web Design certification course. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The brief was to build a [CodePen.io](codepen.io) Survey Form app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
 
-## Gitpod Reminders
+This project was built as a demo for use by [Animosity Campaigns](https://animositycampaigns.com/), an unofficial global narrative campaign for [Warhammer Age of Sigmar](https://ageofsigmar.com/) by [Games Workshop](https://www.games-workshop.com/en-GB/Home)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+My original CodePen can be viewed [here](https://codepen.io/nickchapman1988/pen/bGaZQWL)
 
-`python3 -m http.server`
+In addition, several user stories were specified to be met. These were as follows:
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<table>
+    <tr>
+    <th>STORY ID</th>
+    <th>USER STORY</th>
+    </tr>
+    <tr>
+    <td>User Story #1:</td>
+    <td>I can see a title with id="title" in H1 sized text.</td>
+    </tr>
+    <tr>
+    <td>User Story #2:</td>
+    <td>I can see a short explanation with id="description" in P sized text.</td>
+    </tr>
+    <tr>
+    <td>User Story #3:</td>
+    <td>I can see a form with id="survey-form".</td>
+    </tr>
+    <tr>
+    <td>User Story #4:</td>
+    <td>Inside the form element, I am required to enter my name in a field with id="name".</td>
+    </tr>
+    <tr>
+    <td>User Story #5:</td>
+    <td>Inside the form element, I am required to enter an email in a field with id="email".</td>
+    </tr>
+    <tr>
+    <td>User Story #6:</td>
+    <td>If I enter an email that is not formatted correctly, I will see an HTML5 validation error.</td>
+    </tr>
+    <tr>
+    <td>User Story #7:</td>
+    <td>Inside the form, I can enter a number in a field with id="number".</td>
+    </tr>
+    <tr>
+    <td>User Story #8:</td>
+    <td>If I enter non-numbers in the number input, I will see an HTML5 validation error.</td>
+    </tr>
+    <tr>
+    <td>User Story #9:</td>
+    <td>If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.</td>
+    </tr>
+    <td>User Story #10:</td>
+    <td>For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".</td>
+    </tr>
+    <td>User Story #11:</td>
+    <td>For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.</td>
+    </tr>
+    <td>User Story #12:</td>
+    <td> Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".</td>
+    </tr>
+    <td>User Story #13:</td>
+    <td>Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.</td>
+    </tr>
+    <td>User Story #14:</td>
+    <td>Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.</td>
+    </tr>
+    <td>User Story #15:</td>
+    <td> Inside the form element, I am presented with a textarea at the end for additional comments.</td>
+    </tr>
+    <td>User Story #16:</td>
+    <td> Inside the form element, I am presented with a button with id="submit" to submit all my inputs.</td>
+    </tr>
+</table> 
