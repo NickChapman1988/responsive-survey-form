@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Responsive Survey Form - A freeCodeCamp Responsive Web Design Project">
+
+    <link rel="stylesheet" href="static/static.css">
+
+    <title>Animosity Campaigns Survey Form</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-branding-banner">
+            <div class="site-branding">
+                <p class="site-title">Animosity Campaigns</p>
+                <p class="site-subtitle">Where Narrative Comes To Play</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div="page-header">
+            <h1 id="title">Animosity Campaigns Survey Form</h1>
+            <p id="description">A survey to rate your campaign experience!</p>
+    </div>
+    <main id="main">
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Discord Username</label>
+                <input type="text" id="name" name="name_field" class="form-control" required
+                    placeholder="Enter your Discord username">
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email_field" class="form-control" required validate
+                    placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age (optional)</label>
+                <input type="number" id="number" name="number_field" class="form-control" validate min="10" max="100"
+                    placeholder="Age">
+            </div>
+            <div class="form-group">
+                <label for="dropdown" id="dropdown-label">Which campaign coalition were you part of?</label>
+                <select id="dropdown" name="dropdown" class="form-control">
+                    <option value="">Coalition #1</option>
+                    <option value="">Coalition #2</option>
+                    <option value="">Coalition #3</option>
+                    <option value="">Coalition #4</option>
+                    <option value="">Coalition #5</option>
+                    <option value="">Coalition #6</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Would you recommend Animosity Campaigns to new players?</p>
+                <label>
+                    <input type="radio" id="definitely" name="user-recommend" value="Definitely"
+                        class="input-radio">Definitely</label>
+                <label>
+                    <input type="radio" id="maybe" name="user-recommend" value="Maybe" class="input-radio">Maybe</label>
+                <label>
+                    <input type="radio" id="no" name="user-recommend" value="No" class="input-radio">No</label>
+            </div>
+            <div class="form-group">
+                <p>What aspects of Animosity Campaigns do you feel need improvement for next time?</p>
+                <label><input type="checkbox" id="gameplay" name="feedback-checkbox" value="Gameplay Mechanics"
+                        class="input-checkbox">
+                    Gameplay Mechanics</label>
+                <label><input type="checkbox" id="narrative" name="feedback-checkbox" value="Narrative/Storytelling"
+                        class="input-checkbox">
+                    Narrative/Storytelling</label>
+                <label><input type="checkbox" id="gm-team" name="feedback-checkbox" value="GM Team"
+                        class="input-checkbox">GM Team</label>
+                <label><input type="checkbox" id="player-comms" name="feedback-checkbox"
+                        value="Communication with Players" class="input-checkbox">
+                    Communication with Players</label>
+                <label><input type="checkbox" id="website" name="feedback-checkbox" value="Website"
+                        class="input-checkbox">
+                    Website</label>
+                <label><input type="checkbox" id="diplomacy" name="feedback-checkbox" value="Diplomacy"
+                        class="input-checkbox">
+                    Diplomacy</label>
+            </div>
+            <div class="form-group">
+                <p>Please provide any additional feedback below</p>
+                <textarea class="form-control" name="feedback" rows="10" cols="50"
+                    placeholder="Enter your comments here"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </main>
+    </div>
+</body>
+
+</html>

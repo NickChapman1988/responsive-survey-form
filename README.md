@@ -10,6 +10,8 @@ This project was built as a demo for use by [Animosity Campaigns](https://animos
 
 My original CodePen can be viewed [here](https://codepen.io/nickchapman1988/pen/bGaZQWL)
 
+It should be noted that additional content and styling has been added above and beyond the requirements of the project (namely the header, to match the Animosity main site); however, due to the requirements needed to pass the project, these elements *do not* currently conform to best practices - this would normally be corrected prior to any actual deployment.
+
 In addition, several user stories were specified to be met. These were as follows:
 
 <table>
